@@ -3,10 +3,7 @@
 
 <body>
     <article>
-        <h1><a href="/post">First Post</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates, quos, quod, quibusdam
-            voluptatem quae voluptatum quia quidem
+        <?= $post; ?>
     </article>
     
     <a href="/">Go Back</a>
