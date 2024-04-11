@@ -22,7 +22,8 @@ class RegisterController extends Controller
         ]);
 
 
-        $attributes['password'] = bcrypt(request('password'));
+    
         User::create($attributes);
+        return redirect('/');  
     }
 }
