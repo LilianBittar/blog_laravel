@@ -11,7 +11,6 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
-    protected $guarded = [];
 
 
     protected $hidden = [
@@ -19,7 +18,7 @@ class User extends Authenticatable
         'remember_token',
     ];
 
- 
+
     protected function casts(): array
     {
         return [
